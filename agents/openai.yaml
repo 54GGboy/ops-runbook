@@ -1,0 +1,7 @@
+interface:
+  display_name: "运维解决方案手册"
+  short_description: "仅在主动调用时查询、写入和更新个人运维命令解决方案库"
+  default_prompt: "使用 $ops-runbook 查询、写入或更新一条运维命令方案。"
+
+policy:
+  allow_implicit_invocation: false
